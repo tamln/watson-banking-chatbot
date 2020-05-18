@@ -2,7 +2,7 @@
 
 This document shows how to run the application using Cloud Foundry on IBM Cloud.
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button_x2.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/IBM/watson-banking-chatbot.git)
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button_x2.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/tamln/watson-banking-chatbot.git)
 
 ## Steps
 
@@ -20,7 +20,7 @@ This document shows how to run the application using Cloud Foundry on IBM Cloud.
 
 3. Go to your IBM Cloud resource list and find the Assistant service. There will be a Cloud Foundry service named `wbc-assistant-service` which is linked to the actual service. Click on the Assistant service and you will see a `Manage` tab showing an `API key` and a `URL`. Go back to your resource list and click on the Cloud Foundry application named `watson-banking-chatbot` (with a timestamp suffix). Click on `Runtime environment` and add `ASSISTANT_APIKEY` and `ASSISTANT_URL` with the above values. The app will restart with the new runtime environment.
 
-> Note: You may need to re-run the deploy stage (see [Troubleshooting](https://github.com/IBM/watson-banking-chatbot#Troubleshooting)).
+> Note: You may need to re-run the deploy stage (see [Troubleshooting](https://github.com/tamln/watson-banking-chatbot#Troubleshooting)).
 
 ## Run the web app
 
